@@ -12,6 +12,7 @@ import { RiNumber1, RiNumber2 } from "react-icons/ri"
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import SidebarMenu from "./SidebarMenu";
+//routes is an array
 const routes = [
   {
     path: "/",
@@ -27,18 +28,6 @@ const routes = [
     path: "/electricalsection",
     name: "Electrical Section",
     icon: <GiElectric />,
-    subRoutes: [
-      {
-        path: "/settings/section1",
-        name: "Section1",
-        icon: <RiNumber1 />,
-      },
-      {
-        path: "/settings/section2",
-        name: "Section 2",
-        icon: <RiNumber2 />,
-      },
-    ],
   },
   {
     path: "/logs",
@@ -175,3 +164,21 @@ const SideBar = ({ children }) => {
 };
 
 export default SideBar;
+/* Making subroutes 
+{
+    path: "/electricalsection",
+    name: "Electrical Section",
+    icon: <GiElectric />,
+    subRoutes: [
+      {
+        path: "/electricalsection/section1",
+        name: "Section1",
+        icon: <RiNumber1 />,
+      },
+      {
+        path: "/electricalsection/section2",
+        name: "Section 2",
+        icon: <RiNumber2 />,
+      },
+    ],
+  },*/

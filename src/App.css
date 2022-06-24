@@ -3,7 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.PBI{
+  background-color: #ffffff;
+  min-height: 200vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+.report-style-class{
+  height: 500px;
+  width: 1000px;
+}
 .main-container {
   display: flex;
 }

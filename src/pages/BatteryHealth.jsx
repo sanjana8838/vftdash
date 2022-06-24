@@ -1,5 +1,5 @@
 const BatteryHealth = () => {
-    return <div className="title"> BatteryHealth</div>;
+    return <div className="title"> Battery Health</div>;
   };
   
   export default BatteryHealth;

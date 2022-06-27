@@ -1,6 +1,6 @@
-const logs = () => {
+const Logdata = () => {
     return <div className="title"> logs</div>;
   };
   
-  export default logs;
+  export default Logdata;
   

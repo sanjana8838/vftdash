@@ -54,7 +54,10 @@ main {
 .hide {
   display: none;
 }
-
+.dashboard-style-class{
+  height: 600px;
+  width: 900px;
+}
 .search {
   display: flex;
   align-items: center;
